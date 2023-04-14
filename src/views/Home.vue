@@ -31,7 +31,7 @@
         <h3 class="block-title">{{ item.name }}</h3>
         </BasicTransition>
         <p class="block-text">{{ item.type }}</p>
-        <img class="work-img" :src="`/images/${item.image}`" alt="">
+        <img class="work-img" :src="`images/${item.image}`" alt="">
         <Button text="&nbsp;View&nbsp;project" :size="size" :top="top" :right="right" :color="item.btnColor"></Button>
       </div>
       <p class="label">featured work</p>
